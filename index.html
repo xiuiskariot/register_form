@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register Form</title>
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="main">
+    <div class="register-form-container">
+      <h1 class="form-title">
+        Sign Up
+      </h1>
+      <div class="form-fields">
+        <label for="#">Email</label>
+        <input class="fields" type="email" placeholder="Enter email">
+      </div>
+     
+      <div class="password">
+        <label for="#">Password</label>
+        <input type="text" id="password-input" placeholder="Create password" name="password">
+        <a href="#" class="password-control" onclick="return show_hide_password(this);"></a>
+        <p>At least 8 characters</p>
+      </div>
+
+      
+      <div class="select-wrapper">
+        <label for="country">Country</label>
+        <select id="country">
+          <option checked>Select country</option>
+          <option>Russia</option>
+          <option>Belarus</option>
+          <option>Ukraine</option>
+        </select>
+      </div>
+       
+      <div class="policy"> 
+        <input type="checkbox"/>
+        <label>I agree with the <span>Privacy Policy</span></label>
+      </div>
+
+
+      <div class="form-buttons">
+        <button class="button">Sign Up</button>
+      </div>
+    </div>
+  </main>
+  <script src="js_main.js"></script>
+</body>
+</html>

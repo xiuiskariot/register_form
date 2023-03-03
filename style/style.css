@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: grey;
+}
+
+.fields {
+  font-weight: 400;
+  font-size: 14px;
+  color: #718bae;
+  line-height: 18px;
+  width: 296px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #a6bcda;
+  border-radius: 4px;
+  padding-left: 10px;
+  margin-top: 6px;
+}
+
+.form-title {
+  color: #354665;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.register-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 40px 40px;
+  gap: 26px;
+
+  position: relative;
+  max-width: 375px;
+  height: 516.06px;
+
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 10px;
+}
+
+p {
+  font-size: 12px;
+  margin-top: 8px;
+  color: #354665;
+}
+
+.select-wrapper {
+  font-weight: 400;
+  line-height: 18px;
+  width: 296px;
+}
+
+.select-wrapper select {
+  font-size: 14px;
+  color: #718bae;
+  line-height: 18px;
+  width: 296px;
+  height: 40px;
+  background: #ffffff;
+
+  border: 1px solid #a6bcda;
+  border-radius: 4px;
+  padding-left: 10px;
+  margin-top: 6px;
+}
+
+.policy {
+  justify-content: space-between;
+  width: 296px;
+  height: 40px;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border: 1px solid #a6bcda;
+  border-radius: 3px;
+}
+
+span {
+  color: #0075ff;
+}
+
+label {
+  color: #354665;
+}
+
+.button {
+  width: 296px;
+  height: 46px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 21px;
+  gap: 10px;
+  background: #0077ee;
+  border-radius: 4px;
+  color: white;
+}
+
+.password {
+  width: 296px;
+  position: relative;
+  padding-bottom: 6px;
+}
+#password-input {
+  font-weight: 400;
+  font-size: 14px;
+  color: #718bae;
+  width: 296px;
+  height: 40px;
+  text-indent: 10px;
+  border-radius: 4px;
+  border: 1px solid #a6bcda;
+}
+.password-control {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(https://snipp.ru/demo/495/view.svg) 0 0 no-repeat;
+}
+.password-control.view {
+  background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
+}
